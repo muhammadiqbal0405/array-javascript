@@ -1,10 +1,9 @@
 let todo = []
-let tugas = prompt("Nama tugas: ");
 
-todo.push(tugas);
 
-for(let i = 1; i < todo.length; i++) {
-    console.log((i + 1 ) + "." + todo[i]);   
+for(let i = 1; i < 6; i++) {
+    let tugas = prompt("Nama tugas: ");
+    todo.push(tugas); 
 }
 
 console.log("Daftar Todo");
